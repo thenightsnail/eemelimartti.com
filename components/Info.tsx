@@ -25,8 +25,8 @@ const Info: FC<InfoProps> = () => (
     <Image alt="Eemeli Martti" centered circular size="medium" src="/img/eemeli.jpg" />
     <Header as="h1">Eemeli Martti</Header>
     <List relaxed>
-      {info.map((info) => (
-        <ListItem {...info} key={info.title} />
+      {info.map((d) => (
+        <ListItem {...d} key={d.title} />
       ))}
       {links.map((link) => (
         <ListItem {...link} key={link.title} />
