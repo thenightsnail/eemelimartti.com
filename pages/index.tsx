@@ -13,8 +13,9 @@ const Home = (): JSX.Element => (
     <Container text textAlign="center">
       <Image alt="Eemeli Martti" centered circular size="medium" src="/img/eemeli.jpg" />
       <Header as="h1">Eemeli Martti</Header>
+      <p>Front-end developer @ Wolt</p>
       <p>
-        Developer/Datajournalist from Helsinki. Currently working @{' '}
+        Previously a Developer/Datajournalist @{' '}
         <a href="https://plus.yle.fi/" rel="noreferrer" target="_blank">
           Yle Plus Desk
         </a>
