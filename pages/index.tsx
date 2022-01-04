@@ -15,8 +15,8 @@ const Home = (): JSX.Element => (
       <Header as="h1">Eemeli Martti</Header>
       <p>
         Developer/Datajournalist from Helsinki. Currently working @{' '}
-        <a href="https://plus.yle.fi/" rel="noreferrer" target="_blank">
-          Yle Plus Desk
+        <a href="https://wolt.com/en/discovery" rel="noreferrer" target="_blank">
+          Wolt
         </a>
         .
       </p>
